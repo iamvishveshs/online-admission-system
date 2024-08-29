@@ -47,8 +47,8 @@ The **Online Admission System** is a web-based application designed to streamlin
 
 2. **Database Setup:**
    - Import the `admission_system.sql` file into your MySQL database.
-   - Configure your database settings in the `config.php` file.
-   - **Important:** Update the `db.php` file located in the `main` and `razorpay` directories with your database configuration:
+   - Configure your database settings in the `db.php` file.
+   - **Important:** Update the `db.php` file located in the `./` and `/razorpay` directories with your database configuration:
      - **Hostname:** `localhost`
      - **Username:** `root`
      - **Password:** `''` (empty)
@@ -63,6 +63,15 @@ The **Online Admission System** is a web-based application designed to streamlin
 4. **Run the Application:**
    - Deploy the project on your local server (e.g., XAMPP, WAMP).
    - Access the application via `http://localhost/online-admission-system/`.
+
+## User Authentication
+
+#### Demo Accounts
+
+
+| Role | Email     | Password                |
+| :-------- | :------- | :------------------------- |
+| `Admin` | `admin@gmail.com` |  `admin`|
 
 
 ## Test Payment Details for Payment Gateway
@@ -118,9 +127,6 @@ The **Online Admission System** is a web-based application designed to streamlin
 
 Contributions are welcome! If you would like to improve this project, feel free to fork the repository and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
